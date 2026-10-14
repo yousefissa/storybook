@@ -1,3 +1,8 @@
+## 10.6.3
+
+- Next.js: Fix app-router mock crash on Next.js 16.4 - [#36588](https://github.com/storybookjs/storybook/pull/36588), thanks @obvious-autobuild!
+- Nextjs-Vite: Provide parentRenderTree.bfcacheId in app router mock - [#36732](https://github.com/storybookjs/storybook/pull/36732), thanks @bhushan4work!
+
 ## 10.6.2
 
 - Angular-Vite: Require @analogjs/vite-plugin-angular 2.7.3 or later - [#36525](https://github.com/storybookjs/storybook/pull/36525), thanks @valentinpalkovic!
