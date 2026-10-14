@@ -1,3 +1,38 @@
+## 11.0.0-alpha.7
+
+- Addon Themes: Declare the package as an ES module - [#36721](https://github.com/storybookjs/storybook/pull/36721), thanks @ump45nose!
+- Addon Vitest: Make the test run report agree with its outcome - [#36697](https://github.com/storybookjs/storybook/pull/36697), thanks @kasperpeulen!
+- Addon-docs: Skip re-parsing untransformed stories in the CSF plugin - [#36468](https://github.com/storybookjs/storybook/pull/36468), thanks @EastonShin!
+- CLI: Align prerelease upgrade ranges - [#36751](https://github.com/storybookjs/storybook/pull/36751), thanks @valentinpalkovic!
+- CLI: Fix wrong advice in the skills setup instructions - [#36680](https://github.com/storybookjs/storybook/pull/36680), thanks @kasperpeulen!
+- CLI: Honor selected package manager during upgrade - [#36744](https://github.com/storybookjs/storybook/pull/36744), thanks @valentinpalkovic!
+- CLI: Install npm workspace dependencies from root - [#36753](https://github.com/storybookjs/storybook/pull/36753), thanks @valentinpalkovic!
+- CLI: Keep React Native stories on #.storybook/preview - [#36623](https://github.com/storybookjs/storybook/pull/36623), thanks @ndelangen!
+- CLI: Migrate CSF2 argTypes and fail incomplete upgrades - [#36745](https://github.com/storybookjs/storybook/pull/36745), thanks @valentinpalkovic!
+- CLI: Support CommonJS ESLint flat config automigration - [#36391](https://github.com/storybookjs/storybook/pull/36391), thanks @storybook-contribution-review!
+- CSF: Remove legacy .story annotations - [#36764](https://github.com/storybookjs/storybook/pull/36764), thanks @ndelangen!
+- CSF: Resolve local function story references - [#36746](https://github.com/storybookjs/storybook/pull/36746), thanks @valentinpalkovic!
+- Core: Fix autodocs, preset resolution, and React manifest matching - [#36642](https://github.com/storybookjs/storybook/pull/36642), thanks @valentinpalkovic!
+- Core: Handle WebSocket errors so a bad frame can't crash the dev server - [#35863](https://github.com/storybookjs/storybook/pull/35863), thanks @SnowingFox!
+- Core: List changed stories first and narrow the coverage gap in stories changed - [#36683](https://github.com/storybookjs/storybook/pull/36683), thanks @kasperpeulen!
+- Core: Remove deprecated mockChannel export from preview-api and manager-api [SB-2038] - [#36667](https://github.com/storybookjs/storybook/pull/36667), thanks @obvious-autobuild!
+- Core: Suggest close stories when a story selector matches nothing - [#36698](https://github.com/storybookjs/storybook/pull/36698), thanks @kasperpeulen!
+- Core: Tighten toolbar types and remove redundant normalization (SB-2019) - [#36733](https://github.com/storybookjs/storybook/pull/36733), thanks @obvious-autobuild!
+- Docs: Render Markdown in JSDoc parameter and return descriptions - [#36612](https://github.com/storybookjs/storybook/pull/36612), thanks @dannediesel!
+- Docs: Update stories block component to use standard heading style - [#36709](https://github.com/storybookjs/storybook/pull/36709), thanks @eskres!
+- Manager: Keep tour tooltips on screen when their content grows - [#36657](https://github.com/storybookjs/storybook/pull/36657), thanks @valentinpalkovic!
+- Manager: Remove persisted tag-filter state migration [SB-2022] - [#36678](https://github.com/storybookjs/storybook/pull/36678), thanks @obvious-autobuild!
+- Next.js: Fix app-router mock crash on Next.js 16.4 - [#36588](https://github.com/storybookjs/storybook/pull/36588), thanks @obvious-autobuild!
+- Nextjs-Vite: Provide parentRenderTree.bfcacheId in app router mock - [#36732](https://github.com/storybookjs/storybook/pull/36732), thanks @bhushan4work!
+- Nextjs: Use builder Webpack for framework plugins - [#36752](https://github.com/storybookjs/storybook/pull/36752), thanks @valentinpalkovic!
+- React: Guard docgen extraction against TypeScript builds without the compiler API - [#35834](https://github.com/storybookjs/storybook/pull/35834), thanks @FrancoKaddour!
+- React: Keep the act environment set while a story tears down - [#36608](https://github.com/storybookjs/storybook/pull/36608), thanks @malcolmwhite-surge!
+- React: Prebundle react/jsx-runtime to avoid a reload when plugins import it - [#36682](https://github.com/storybookjs/storybook/pull/36682), thanks @nishimoto265!
+- Svelte: Fix Svelte CSF code snippet crash on null args - [#36770](https://github.com/storybookjs/storybook/pull/36770), thanks @bryce-easygo!
+- TanStack: Add strictMode to FrameworkOptions type - [#36712](https://github.com/storybookjs/storybook/pull/36712), thanks @BaconMan1168!
+- WC: Deprecate runtime WC manifest path - [#36622](https://github.com/storybookjs/storybook/pull/36622), thanks @huang-julien!
+- [SB-2007] Remove ExternalDocs and ExternalDocsContainer - [#36757](https://github.com/storybookjs/storybook/pull/36757), thanks @obvious-autobuild!
+
 ## 11.0.0-alpha.6
 
 - Addon Docs: Map CSF plugin sourcemaps to the transform input - [#36463](https://github.com/storybookjs/storybook/pull/36463), thanks @mnkprs!
